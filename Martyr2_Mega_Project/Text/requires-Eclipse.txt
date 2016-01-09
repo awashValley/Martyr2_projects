@@ -1,0 +1,6 @@
+Problem Type: Text
+1. Count Words in a String - Counts the number of individual words in a string. For added complexity, read these strings in from a text file and generate summary.
+
+2. Text Editor: Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
+
+3. 
