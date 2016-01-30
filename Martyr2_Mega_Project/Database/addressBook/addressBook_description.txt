@@ -1,0 +1,22 @@
+/*	---------------------------------------------------------------------------	
+/*	PROJECT TITLE:		Address Book 
+/*	PROJECT CATEGORY:	Database
+/*	PROJECT DIFFICULTY:	3	
+/*	DATE:			January 2016											
+/*	PROGRAMMER:		awashValley	
+/*  	---------------------------------------------------------------------------
+/*	SOURCE:			The Programmers Idea Book by Martyr2 Version 1.05		
+/*	WEBSITE: 		http://www.coderslexicon.com											
+/*	---------------------------------------------------------------------------	
+
+DESCRIPTION: 
+Lost a phone number? Can't remember their address? Solve this problem by creating a program which keeps track of contacts and their information in an address book. The user should be able to create, edit or delete contacts. Creating a contact should allow the user to enter a name, address, phone, email, notes and any extra information a user might want to keep track of for an individual contact and store it in a database. Provide a mechanism for the user to quickly look up a contact by keyword search or by looking them up using a dictionary type approach (clicking "A" to find "Adam"). Search by contact name or by phone number.
+
+TIPS: 
+Try to start this project by determining what exactly you are going to record about a contact and the types of fields you will need accurately capture that information. Does it make sense to have a drop-down for an address? Probably not. Once you have determined all the data you will need, create a class to represent a contact. The address book itself is going to be a manager of these contact classes. The search will then be able to look through the list and access each class instance and compare it against the search keywords. Look to making a List structure that holds Contact class instances. Also determine how you are going to save these contacts between excutions of the program. A text file may get you only so far, so perhaps a database will be needed. It can also help with searching. Query the database, pull out the contacts information, build a contact class with each record and store it into a manageable data structure in the program.
+
+ADDED DIFFICULTY:
+Allow the user to specify a picture of each contact. If using a database, you may want to consider NOT storing the picture directly in the database but instead refer to the file by its path and store that. The picture then will reside on the file system.
+
+
+
