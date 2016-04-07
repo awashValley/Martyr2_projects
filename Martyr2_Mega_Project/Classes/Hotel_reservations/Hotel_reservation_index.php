@@ -3,17 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>
-		Airline / Hotel Reservation System
+		Hotel Reservation System
 	</title>
 </head>
 <body>
-	<h3>Martyr2 project: CLASS </h3>
-	<h3>Challenge: Airline / Hotel Reservation System</h3>
-	<h3>Developer: awashValley</h3>
-	<h3>Date: 06APR2016</h3>
-	<h3>History:</h3>
-	<p>-------- Version: 1.0 [02Apr2016]------------- </p>
-	<p>==============================================</p>
+<!-- *******************************************************************************
+  Copyright awashValley
+********************************************************************************
+  Program    : Hotel_reservation_index.php
+  Author     : awashValley
+  Location   : 
+  Date       : 06APR2016
+  Version    : 1.0
+  Description: 
+  Remarks    : 
+********************************************************************************
+  Input      :      
+  Output     :                   
+********************************************************************************
+  Modification history:
+********************************************************************************
+    Name * Ver * Date       * Description     
+    **************************************************************************** 
+    HW1  * 1.0 * 02APR2016  * Version 1.0.
+******************************************************************************* -->
 
 	
 	<div id="main">
