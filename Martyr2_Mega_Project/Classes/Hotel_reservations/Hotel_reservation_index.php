@@ -63,7 +63,7 @@
 
 		    require "db/connection.php";
 			
-			$connect =new MakeConnection("localhost", "root", "Bob1@Saron2");
+			$connect =new MakeConnection("localhost", "root", "Password");
 			print "{$connect->checkConnection()}"; 
 			
 			$connect->selectDB("Martyr2_class_hotel");
