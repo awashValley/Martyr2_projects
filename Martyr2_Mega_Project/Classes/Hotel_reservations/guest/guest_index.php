@@ -8,23 +8,27 @@
 
 	<h3>Welcome customer!</h3>
 
-	<form action="guest_index.php" method="POST">
-		
-		<div id="guestContacts">
+	<div id="guestContacts">
+
+		<form action="guest_index.php" method="POST">
 			
-			<label for="txtName">Name:</label>
-			<input type="text" name="guestName"><br>
+				<label for="txtName">Name:</label>
+				<input type="text" name="guestName"><br>
 
-			<label for="txtPhone">Phone:</label>
-			<input type="text" name="guestPhone"><br>
+				<label for="txtPhone">Phone:</label>
+				<input type="text" name="guestPhone"><br>
 
-			<label for="txtEmail">Email:</label>
-			<input type="text" name="guestEmail"><br>
-		</div>
-		
+				<label for="txtEmail">Email:</label>
+				<input type="text" name="guestEmail"><br>
+
+				<label for="txtDate">Date:</label>
+				<input type="date" name="guestDate" placeholder="yyyy-mm-dd" value="<?php echo date('Y-m-d'); ?>"><br>				
+
+				<input type="submit" name="submitGuest" value="Submit">
 
 
-	</form>
+		</form>
+	</div>
 	
 </body>
 </html>
